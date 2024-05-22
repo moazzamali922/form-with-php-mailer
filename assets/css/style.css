@@ -1,0 +1,619 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px;
+  margin:auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.heading2 {
+  color: #8D4946;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.heading3 {
+  text-align: center;
+  color: #8D4946;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.hr_style {
+  border: 1px solid #000 !important;
+  margin: 40px 0px !important;
+}
+
+label {
+  font-weight: bold;
+}
+
+.checkbox-label {
+  margin-bottom: 5px;
+}
+
+.btn-submit {
+  margin-top: 20px;
+}
+
+.form-check-inline {
+  display: block;
+}
+
+.form-check-inline2 {
+  display: inline !important;
+}
+
+/* @media screen and(max-width:768px){
+  .Grievance{
+   float: left;
+  }
+ } */
+
+.custom-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-paragraph {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #000000;
+  border-radius: 0;
+  outline: none !important;
+  box-shadow: none;
+  padding: 0px !important;
+}
+
+.custom-input:focus {
+  border-color: #000;
+  outline: none !important;
+}
+
+.consent {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  /* width: 95%; */
+  margin-top: 50px;
+}
+
+.head_info {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.consent_info {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.consent_para1 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.consent_para2 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#date,
+#social,
+#authorization,
+#last_blank,
+#consent_other {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+}
+
+#date:focus,
+#social:focus,
+#authorization:focus,
+#last_blank:focus,
+#consent_other:focus {
+  border-top: 2px solid lightblue;
+  border-left: 2px solid lightblue;
+  box-shadow: rgba(28, 172, 216, 0.2);
+  border-right: 2px solid lightblue;
+  border-bottom: 2px solid lightblue;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.checkbox_other {
+  float: right;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 3px 227px 13px 16px;
+}
+
+.consent_para3_para {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.consent_para3 li {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.consent_para4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.consent_signature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.veterans_sign,
+.veterans_date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.veterans_sign,
+.veterans_date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.veterans_sign input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.veterans_date input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.veterans_date input:focus,
+.veterans_sign input:focus {
+  border-top: 2px solid lightblue;
+  border-left: 2px solid lightblue;
+  box-shadow: rgba(28, 172, 216, 0.2);
+  border-right: 2px solid lightblue;
+  border-bottom: 2px solid lightblue;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+
+/* first page ends */
+
+/* second page starts */
+
+.veterans {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  /* width: 90%; */
+  margin-top: 50px;
+}
+
+.veterans_img {
+  width: 280px;
+  margin: auto;
+}
+
+.veterans_img img {
+  width: 280px;
+}
+
+.veterans_para {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.veterans_checkboxes {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-left: auto;
+  padding: 10px;
+  margin-right: auto;
+  width: 50%;
+  /* Adjust the width as needed */
+}
+
+.signof_veteran {
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-evenly;
+}
+
+.signature_veteran,
+.date_veteran {
+  font-size: 20px;
+}
+
+.signature_veteran input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.date_veteran input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.veteran_manager {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+
+.veteran_manager_sign,
+.veteran_manager_date {
+  font-size: 20px;
+}
+
+.veteran_manager_sign input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.veteran_manager_date input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+.signature_veteran input:focus,
+.veteran_manager_sign input:focus,
+.date_veteran input:focus,
+.veteran_manager_date input:focus {
+  border-top: 2px solid lightblue;
+  border-left: 2px solid lightblue;
+  box-shadow: rgba(28, 172, 216, 0.2);
+  border-right: 2px solid lightblue;
+  border-bottom: 2px solid lightblue;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+
+/* 
+    .veteran_manager_sign :focus {
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        } */
+/* #date,#social,#authorization,#last_blank::after{
+       border: 1px solid lightblue;
+        
+    } */
+
+.border-bottom-2 {
+  border-bottom: 4px solid black;
+}
+
+.custom-text-area {
+  width: 100%;
+}
+
+.border-bottom-3 {
+  border-bottom: 3px solid black;
+}
+
+.text-area-individual {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Disable textarea resizing */
+  min-height: 100px;
+  width: 100%;
+}
+
+.form-check-inline-individual-employnment {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.custom-font-size {
+  font-size: 18px;
+}
+
+
+.for-more{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.custom-inputtt {
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid black; 
+    outline: none; 
+    font-weight: bold; 
+    width: 30%;
+}
+
+.header-box {
+    width: 100%;
+    background-color:  #09395d;
+    padding: 15px;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center; 
+    height: 60px;
+    align-items: center;
+}
+
+
+.header-box p {
+    margin: 0; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.values_box {
+    background-color: #65b59c;
+    height: 365px;
+}
+
+
+.value-text {
+    background-color:  #65b59c;
+    padding: 10px;
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* last page starts */
+
+.report_heading{
+    font-size: 30px;
+    margin-top: 28px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    
+    
+}
+
+.veterans_client{
+   margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+ 
+}
+
+.date_enroll{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.labelll {
+    margin-left: 25px !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+.form-check-input-sm{
+    margin-left: 5px;
+}
+
+.ivtp{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.client_programs{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.co_programs{
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+#field{
+  border-top: none;
+  border-left: none;
+  margin-left: 12px;
+  border-right: none;
+  border-bottom: 1px solid grey;
+}
+
+#field:focus{
+
+border-top: 2px solid lightblue;
+border-left: 2px solid lightblue;
+box-shadow: rgba(28, 172, 216, 0.2);
+border-right: 2px solid lightblue;
+border-bottom: 2px solid lightblue;
+transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; 
+outline: none;
+}
+
+.bn47 {
+  position: relative;
+  padding: 1rem 2rem 0.5rem 2.5rem;
+  color: #000000;
+  border: 3px solid #776e62;
+  -webkit-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
+}
+
+.bn47:before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bn47:hover {
+  padding: 0.75rem 2.25rem;
+}
+
+.bn47:hover:before {
+  top: 0;
+  left: 0;
+}
+
+/* #form2{
+  display: none;
+} */
+
+.btn-outline-dark {
+  background-color: #8D4946;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btn-outline-dark:hover {
+  background-color: #fff;
+  border-color: #8D4946;
+  color: #000;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* fourth section starts */
+
+.fourth{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    margin-top: 50px;
+    /* max-width:1140px; */
+  
+}
+
+/* .fourth img{
+  margin:auto;
+  width: 150px;
+} */
+
+.fourth-head{
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.fourth p{
+  padding: 2px;
+  margin-top: 28px;
+  
+}
+
+.fourth p input{
+  border-top:none;
+ 
+  border-left:none;
+  border-right:none;
+}
+
+/* fourth section ends */
+
+
+/* <!-- seventh section starts --> */
+
+.participant{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 120px;
+    margin-top: 50px;
+    max-width:1140px;
+}
+
+.participant h4{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.participant li{
+  margin: 20px;
+}
+
+/* <!-- seventh section ends --> */

@@ -1,0 +1,35 @@
+.body-color{
+    background-color: #222222;
+}
+
+.unique-nav-logo{
+    width: 70px;
+    height: auto;
+}
+
+.unique-nav-logo-2{
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btn-black {
+    color: #fff;
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.error-message{
+    color: red;
+}
+
+.display-none{
+    display: none;
+}
+
